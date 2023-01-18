@@ -11,6 +11,9 @@ import 'package:class_1/practice/rowandcolumn.dart';
 import 'package:class_1/practice/statefull_widget.dart';
 import 'package:flutter/material.dart';
 
+import 'Navigation/Navigation_1.dart';
+import 'Navigation/Navigation_2.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -26,10 +29,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FormWidget(),// auta maatra haalna milcha
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const nav_1(),
+        '/second': (context) => const nav_2(),
+      },
+      // home: const FormWidget(),// auta maatra haalna milcha
       debugShowCheckedModeBanner: false,
     );
   }
 }
-
-

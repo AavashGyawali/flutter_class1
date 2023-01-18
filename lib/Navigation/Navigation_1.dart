@@ -12,14 +12,15 @@ class _nav_1State extends State<nav_1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("First Screen"),
+        title: const Text("First Screen"),
       ),
       body: Center(
         child: ElevatedButton(
           onPressed: (){
+            Navigator.pushNamed(context, '/second');
 
           },
-          child: Text("Launch Screen"),
+          child: const Text("Launch Screen"),
         ),
       ),
 
