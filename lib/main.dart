@@ -2,6 +2,7 @@ import 'package:class_1/practice/Alert.dart';
 import 'package:class_1/practice/button.dart';
 import 'package:class_1/practice/checkbox.dart';
 import 'package:class_1/practice/container.dart';
+import 'package:class_1/practice/text_field.dart';
 import 'package:class_1/practice/hlw_1.dart';
 import 'package:class_1/practice/my_alert_dialog.dart';
 import 'package:class_1/practice/parctice1.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyAlertdialog(),// auta maatra haalna milcha
+      home: const FormWidget(),// auta maatra haalna milcha
       debugShowCheckedModeBanner: false,
     );
   }
