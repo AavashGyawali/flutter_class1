@@ -12,7 +12,7 @@ class _nav_2State extends State<nav_2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Second Screen"),
+        title: const Text("Second Screen"),
       ),
       body: Center(
         child: ElevatedButton(
@@ -20,7 +20,7 @@ class _nav_2State extends State<nav_2> {
             Navigator.pop(context);
 
           },
-          child: Text("Go back!"),
+          child: const Text("Go back!"),
         ),
       ),
 
