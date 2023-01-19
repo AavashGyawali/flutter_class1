@@ -1,3 +1,4 @@
+import 'package:class_1/MyGridView/gridView2.dart';
 import 'package:class_1/Mylist/listViewClassMethode.dart';
 import 'package:class_1/Mylist/my_list.dart';
 import 'package:class_1/practice/Alert.dart';
@@ -13,6 +14,7 @@ import 'package:class_1/practice/rowandcolumn.dart';
 import 'package:class_1/practice/statefull_widget.dart';
 import 'package:flutter/material.dart';
 
+import 'MyGridView/gridView1.dart';
 import 'Navigation/Navigation_1.dart';
 import 'Navigation/Navigation_2.dart';
 
@@ -33,7 +35,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => const MyList2(),
+        '/': (context) => const GridView2(),
 
       },
       // home: const FormWidget(),// auta maatra haalna milcha
