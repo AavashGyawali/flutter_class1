@@ -1,3 +1,4 @@
+import 'package:class_1/Mylist/listViewClassMethode.dart';
 import 'package:class_1/Mylist/my_list.dart';
 import 'package:class_1/practice/Alert.dart';
 import 'package:class_1/practice/button.dart';
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => const MyList(),
+        '/': (context) => const MyList2(),
 
       },
       // home: const FormWidget(),// auta maatra haalna milcha
