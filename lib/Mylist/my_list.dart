@@ -44,10 +44,15 @@ class _MyListState extends State<MyList> {
       ListView.builder(
           itemCount: itemList.length,
           itemBuilder: (context,index){
-            return ListTile(
-              title: Text(itemList[index]),
-            );
+            return _myListtile(index);
+
           }),
+    );
+  }
+
+  ListTile _myListtile(int index) {
+    return ListTile(
+      title: Text(itemList[index]),
     );
   }
 }
