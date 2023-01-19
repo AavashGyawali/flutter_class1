@@ -17,7 +17,7 @@ class _nav_1State extends State<nav_1> {
       body: Center(
         child: ElevatedButton(
           onPressed: (){
-            Navigator.pushReplacementNamed(context, "/second");
+            Navigator.pushReplacementNamed(context, "/second");//pachadi jaana na milney
 
           },
           child: const Text("Launch Screen"),

@@ -17,7 +17,7 @@ class _nav_2State extends State<nav_2> {
       body: Center(
         child: ElevatedButton(
           onPressed: (){
-            Navigator.pop(context);
+            Navigator.pop(context);//pachadi jaanako laagi
 
           },
           child: const Text("Go back!"),

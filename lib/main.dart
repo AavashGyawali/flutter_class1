@@ -1,3 +1,4 @@
+import 'package:class_1/Mylist/my_list.dart';
 import 'package:class_1/practice/Alert.dart';
 import 'package:class_1/practice/button.dart';
 import 'package:class_1/practice/checkbox.dart';
@@ -31,8 +32,8 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => const nav_1(),
-        '/second': (context) => const nav_2(),
+        '/': (context) => const MyList(),
+
       },
       // home: const FormWidget(),// auta maatra haalna milcha
       debugShowCheckedModeBanner: false,
