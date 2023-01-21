@@ -265,7 +265,8 @@ class _Hlw2RegxState extends State<Hlw2Regx> {
         _formKey.currentState!.validate();
         if (signUP==true && signUp1==true) {
           Navigator.pushNamed(context, '/second');
-        }//pachadi jaanako laagi
+        }
+        //pachadi jaanako laagi
       },
       child: const Text("Sign in"),
     );
