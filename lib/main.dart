@@ -2,9 +2,13 @@ import 'package:class_1/MyGridView/gridView2.dart';
 import 'package:class_1/Mylist/listViewClassMethode.dart';
 import 'package:class_1/Mylist/my_list.dart';
 import 'package:class_1/practice/Alert.dart';
+import 'package:class_1/practice/Forgot_Password.dart';
+import 'package:class_1/practice/Hlw2Nav.dart';
+import 'package:class_1/practice/Sign_Up.dart';
 import 'package:class_1/practice/button.dart';
 import 'package:class_1/practice/checkbox.dart';
 import 'package:class_1/practice/container.dart';
+import 'package:class_1/practice/hlw2_using_regx.dart';
 import 'package:class_1/practice/text_field.dart';
 import 'package:class_1/practice/hlw_1.dart';
 import 'package:class_1/practice/my_alert_dialog.dart';
@@ -36,7 +40,10 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => const GridViewBuilder(),
+        '/': (context) => const Hlw2Regx(),
+        '/second' : (context)=> const Hlw2Nav(),
+        '/forgotpassword': (context)=> const ForgotPassword(),
+        '/signup' :  (context)=> const SignUp(),
 
       },
       // home: const FormWidget(),// auta maatra haalna milcha
