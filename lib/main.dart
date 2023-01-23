@@ -19,6 +19,7 @@ import 'package:class_1/practice/rowandcolumn.dart';
 import 'package:class_1/practice/statefull_widget.dart';
 import 'package:flutter/material.dart';
 
+import 'BottomNavigation/BottomNavigation.dart';
 import 'MyGridView/gridView1.dart';
 import 'Mylist/GridViewClass.dart';
 import 'Navigation/Navigation_1.dart';
@@ -48,7 +49,7 @@ class MyApp extends StatelessWidget {
       //   '/signup' :  (context)=> const SignUp(),
       //
       // },
-      home: const TabView1(),// auta maatra haalna milcha
+      home: const BottomNavigationFirst(),// auta maatra haalna milcha
       debugShowCheckedModeBanner: false,
     );
   }
