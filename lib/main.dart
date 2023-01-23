@@ -1,6 +1,7 @@
 import 'package:class_1/MyGridView/gridView2.dart';
 import 'package:class_1/Mylist/listViewClassMethode.dart';
 import 'package:class_1/Mylist/my_list.dart';
+import 'package:class_1/pageview/pageview.dart';
 import 'package:class_1/practice/Alert.dart';
 import 'package:class_1/practice/Forgot_Password.dart';
 import 'package:class_1/practice/Hlw2Nav.dart';
@@ -22,6 +23,7 @@ import 'MyGridView/gridView1.dart';
 import 'Mylist/GridViewClass.dart';
 import 'Navigation/Navigation_1.dart';
 import 'Navigation/Navigation_2.dart';
+import 'TabView/tab_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,15 +40,15 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/',
-      routes: {
-        '/': (context) => const Hlw2Regx(),
-        '/second' : (context)=> const Hlw2Nav(),
-        '/forgotpassword': (context)=> const ForgotPassword(),
-        '/signup' :  (context)=> const SignUp(),
-
-      },
-      // home: const FormWidget(),// auta maatra haalna milcha
+      // initialRoute: '/',
+      // routes: {
+      //   '/': (context) => const Hlw2Regx(),
+      //   '/second' : (context)=> const Hlw2Nav(),
+      //   '/forgotpassword': (context)=> const ForgotPassword(),
+      //   '/signup' :  (context)=> const SignUp(),
+      //
+      // },
+      home: const TabView1(),// auta maatra haalna milcha
       debugShowCheckedModeBanner: false,
     );
   }

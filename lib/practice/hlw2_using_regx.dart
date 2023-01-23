@@ -155,7 +155,7 @@ class _Hlw2RegxState extends State<Hlw2Regx> {
     return TextFormField(
       validator: (value1) {
         if (value1!.isEmpty) {
-          return "plese enter email";
+          return "please enter email";
         } else {
           bool result1 = validateEmail(value1);
           if (result1) {
